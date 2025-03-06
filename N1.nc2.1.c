@@ -2,29 +2,29 @@
 
 int main(){
     //carta1
-    int carta = 1;
-    char Estado = 'A';
-    char Código[4] = "A01";
-    char Cidade[20] = "goiá";
-    double População = 250.84;
-    float Área = 100.86;
-    double PIB = 150.60;
-    int NúmerodePontosTurísticos = 24;
-    float DensidadePopulacional =  250.84 / 100.86;
-    float PIBperCapita = 150.60 / 250.84;
-    unsigned int SuperPoder = 250.84 * 100.86 * 150.60 * 24;
+    int carta1 = 1;
+    char Estado1 = 'A';
+    char Código1[4] = "A01";
+    char Cidade1[20] = "goiá";
+    double População1 = 250.84;
+    float Área1 = 100.86;
+    double PIB1 = 150.60;
+    int NúmerodePontosTurísticos1 = 24;
+    float DensidadePopulacional1 =  250.84 / 100.86;
+    float PIBperCapita1 = 150.60 / 250.84;
+    unsigned int SuperPoder1 = 250.84 * 100.86 * 150.60 * 24;
 
-    printf("carta: %d\n", carta);
-    printf("Estado: %c\n", Estado);
-    printf("Códiga: %s\n", Código);
-    printf("Cidade: %s\n", Cidade);
-    printf("População: %.2f\n", População);
-    printf("Área: %.2f\n", Área);
-    printf("PIB: %.2f\n",PIB);
-    printf("Número de Pontos Turísticos: %d\n", NúmerodePontosTurísticos);
-    printf("Densidade Populacional: %.2f\n", DensidadePopulacional);
-    printf("PIB per Capita: %.2f\n", PIBperCapita);
-    printf("Super Poder: %u\n", SuperPoder);
+    printf("carta: %d\n", carta1);
+    printf("Estado: %c\n", Estado1);
+    printf("Códiga: %s\n", Código1);
+    printf("Cidade: %s\n", Cidade1);
+    printf("População: %.2f\n", População1);
+    printf("Área: %.2f\n", Área1);
+    printf("PIB: %.2f\n",PIB1);
+    printf("Número de Pontos Turísticos: %d\n", NúmerodePontosTurísticos1);
+    printf("Densidade Populacional: %.2f\n", DensidadePopulacional1);
+    printf("PIB per Capita: %.2f\n", PIBperCapita1);
+    printf("Super Poder: %u\n", SuperPoder1);
 
     //carta2
     int carta2 = 2;
