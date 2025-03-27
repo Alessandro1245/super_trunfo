@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    //carta1
+    //carto1
     int carta = 1;
     char Estado = 'A';
     char Codigo[4] = "A01";
     char Cidade[20] = "goiá";
-    double População = 250.84;
+    float População = 250.84;
     float Area = 100.86;
     double PIB = 150.60;
     int NumerodePontosTuristicos = 24;
@@ -14,7 +14,7 @@ int main(){
     float PIBperCapita = 150.60 / 250.84;
     unsigned int SuperPoder = 250.84 * 100.86 * 150.60 * 24;
 
-    printf("carta: %d\n", carta);
+    
     printf("Estado: %c\n", Estado);
     printf("Códiga: %s\n", Codigo);
     printf("Cidade: %s\n", Cidade);
@@ -51,5 +51,41 @@ int main(){
     printf("PIB per Capita2: %.2f\n", PIBperCapita2);
     printf("Super Poder2: %u\n", SuperPoder2);
 
+    if(População > População2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+
+    if(Area > Área2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+
+    if( PIB > PIB2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+
+    if(NumerodePontosTuristicos > NúmerodePontosTurísticos2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+
+    if( DensidadePopulacional > DensidadePopulacional2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+
+    if( PIBperCapita > PIBperCapita2){
+        printf("Vencedor: Carta 1\n");
+    } else {
+        printf("Vencedor: Carta 2\n");
+    }
+    
     return 0;
 }
